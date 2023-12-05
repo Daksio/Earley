@@ -11,3 +11,6 @@ python3 main.py
 pip install pytest
 py.test test.py
 ```
+
+Первый тест - тест с akhchek'а, второй - мой тест.
+Если хотите вписать тест, то нужно добавить в файл test.py новый def testN, заполняете его как в тестах выше.
