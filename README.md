@@ -65,7 +65,7 @@ No
 
 #### Code coverage
 
-![Alt text](/codecoverage/codecoverage1.png)
+![Alt text](/codecoverage/Codecoverage1.png)
 
 ## Тестирование через pytest
 
@@ -81,6 +81,6 @@ make test
 
 #### Code coverage
 
-![Alt text](/codecoverage/codecoverage2.png)
+![Alt text](/codecoverage/Codecoverage2.png)
 
 #### P.S. Хотелось бы минимум 3 балла.
