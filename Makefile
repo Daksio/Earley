@@ -1,5 +1,5 @@
 test:
-	py.test tests/test.py
+	pytest tests/test.py
 
 run:
 	python3 src/earley.py
