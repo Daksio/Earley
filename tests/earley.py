@@ -144,19 +144,3 @@ class Earley:
             if item.is_last and item.root == 0 and item.left == self.start:
                 return True
         return False
-
-
-if __name__ == "__main__":
-    N, Alphabet, P = [int(i) for i in input().split()]
-    non_terms = list(input())
-    terms = list(input())
-    Rules = set()
-    for _ in range(P):
-        Rules.add(input())
-    begin = input()
-    Parser = Earley()
-    Parser.fit(begin, terms, non_terms, Rules)
-    check = int(input())
-    for _ in range(check):
-        word = input()
-        print("Yes" if Parser.applyPredict(word) else "No")

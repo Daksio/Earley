@@ -1,3 +1,5 @@
-.run_tests:
-	cd src
-	py.test ../tests/test.py
+test:
+	py.test tests/test.py
+
+run:
+	python3 src/earley.py
